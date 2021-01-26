@@ -1,0 +1,57 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/background.jpg");
+}
+nav{
+    background-color:#4a4a4a;
+    color: white;
+    /* width: 5%; */
+    height: 100px;
+    text-align: center;
+}
+nav h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+}
+#carForm{
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 25px;
+    /* font-weight: bold; */
+    background-color:#a3a3a3;
+    width: 250px;
+    /* height: 400px; */
+    text-align: center;
+    padding: 50px;
+}
+.button{
+    background-color: black;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    width: 150px;
+}
+table{
+    width:700px;
+}
+td{
+    background-color: white;
+    font-size: 25px!important;
+}
+.tablediv{
+    border-radius: 15px;
+    background-color: #a3a3a3;
+    /* padding: 50px; */
+    float: right;
+    margin: 70px!important;
+    width: 700px;
+    padding: 30px;
+    position:absolute;
+    top:15%;
+    left: 40%;
+}
