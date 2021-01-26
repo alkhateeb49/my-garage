@@ -17,25 +17,25 @@ cars.prototype.renderit=function(){
     var td2=document.createElement("td");
     var img=document.createElement("img");
     if(this.category=="BMW"){
-        img.src="../img/bmw.png";
+        img.src="./img/bmw.png";
         img.style.width="150px";
     }else if(this.category=="Lexus"){
-        img.src="../img/lexus.png";
+        img.src="./img/lexus.png";
         img.style.width="150px";
     }else if(this.category=="Toyota"){
-        img.src="../img/toyota.png";
+        img.src="./img/toyota.png";
         img.style.width="150px";
     }else if(this.category=="Tesla"){
-        img.src="../img/tesla.png";
+        img.src="./img/tesla.png";
         img.style.width="150px";
     }else if(this.category=="Chevrolet"){
-        img.src="../img/chevrolet.png";
+        img.src="./img/chevrolet.png";
         img.style.width="150px";
     }else if(this.category=="Hyundai"){
-        img.src="../img/hyundai.png";
+        img.src="./img/hyundai.png";
         img.style.width="150px";
     }else if(this.category=="KIA"){
-        img.src="../img/kia.png";
+        img.src="./img/kia.png";
         img.style.width="150px";    
     }
     td1.appendChild(img);
@@ -66,25 +66,25 @@ function checkandrender(){
             var td2=document.createElement("td");
             var img=document.createElement("img");
             if(arrayOfCars[i].category=="BMW"){
-                img.src="../img/bmw.png";
+                img.src="./img/bmw.png";
                 img.style.width="150px";
             }else if(arrayOfCars[i].category=="Lexus"){
-                img.src="../img/lexus.png";
+                img.src="./img/lexus.png";
                 img.style.width="150px";
             }else if(arrayOfCars[i].category=="Toyota"){
-                img.src="../img/toyota.png";
+                img.src="./img/toyota.png";
                 img.style.width="150px";
             }else if(arrayOfCars[i].category=="Tesla"){
-                img.src="../img/tesla.png";
+                img.src="./img/tesla.png";
                 img.style.width="150px";
             }else if(arrayOfCars[i].category=="Chevrolet"){
-                img.src="../img/chevrolet.png";
+                img.src="./img/chevrolet.png";
                 img.style.width="150px";
             }else if(arrayOfCars[i].category=="Hyundai"){
-                img.src="../img/hyundai.png";
+                img.src="./img/hyundai.png";
                 img.style.width="150px";
             }else if(arrayOfCars[i].category=="KIA"){
-                img.src="../img/kia.png";
+                img.src="./img/kia.png";
                 img.style.width="150px";    
             }else{console.log("nono");}
             td1.appendChild(img);
